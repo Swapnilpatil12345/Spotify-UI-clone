@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./assets/logo.png"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="main-window">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-options" style="opacity: 1;">
+                    <i id="home-nav" class="fa-solid fa-house" ></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-options">
+                    <i id="search-nav" class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library-section">
+                <div class="library-options">
+                    <div class="library">
+                        <img src="./assets/library_icon.png"></img>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="library-icons">
+                        <div class="plus">
+                            <span id="plus" class="material-symbols-outlined">
+                                add
+                            </span>
+                        </div>
+                        <div class="right-arrow">
+                            <span id="arrow" class="material-symbols-outlined">
+                                arrow_forward
+                            </span>
+                        </div>
+                    </div>
+            
+                </div>
+                <div class="lib-box">
+                    <p class="box-p1">
+                        Create your first playlist
+                    </p>
+                    <p class="box-p2">
+                        It's easy. we'll help you
+                    </p>
+                    
+                    <button type="button" class="badge">Create playlist</button>
+                </div>
+                <div class="lib-box">
+                    <p class="box-p1">
+                        Let's find some podcasts to follow
+                    </p>
+                    <p class="box-p2">
+                        We'll keep you updated on new episodes
+                    </p>
+                    <button type="button" class="badge">Browse podcasts</button>
+                
+                </div>
+            </div>  
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="forward-backward">
+                    <img src="./assets/backward_icon.png " class="sticky-img-optn" alt="">
+                    <img src="./assets/forward_icon.png " class="sticky-img-optn gayab" alt="">
+                </div>
+                <div class="install-premium-optn">
+                    <button class="sticky-nav-button badge sticky-nav-icons premium-btn gayab">Explore Premium</button>
+                    <button class="sticky-nav-button badge sticky-nav-icons install-btn"><i class="fa-regular fa-circle-down down-circle"></i>
+                        Install App
+                    </button>
+                    <i class="fa-regular fa-user sticky-nav-icons dark-icon"></i>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-section">
+                    <h2>Recently played</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-section">
+                    <h2>Based on your recent listening </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card4img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="card-section">
+                    <h2>India's Best</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card5img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card6img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card5img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card6img.jpeg" alt="">
+                            <div class="card-title">Top 50-Global</div>
+                            <div class="card-info">Your daily update of the most played tracks right...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br><br>
+
+                <div class="footer">
+                    <div class="company-col footer-col">
+                        <ul class="company-list" style="list-style-type: none;">
+                            <li class="footer-list-head">Company</li>
+                            <li>About</li>
+                            <li>Jobs</li>
+                            <li>For the Record</li>
+                          </ul>
+                    </div>
+                    <div class="communities-col footer-col">
+                        <ul class="company-list" style="list-style-type: none;">
+                            <li class="footer-list-head">Communities</li>
+                            <li>For Artists</li>
+                            <li>Developers</li>
+                            <li>Advertising</li>
+                            <li>Investors</li>
+                            <li>Vendors</li>
+                        </ul> 
+                    </div>
+                    <div class="Useful-links-col footer-col">
+                        <ul class="company-list" style="list-style-type: none;">
+                            <li class="footer-list-head">Communities</li>
+                            <li>Support</li>
+                            <li>Free Mobile App</li>
+                            
+                        </ul> 
+                    </div>
+                    <div class="Spotify-Plans-col footer-col">
+                        <ul class="company-list" style="list-style-type: none;">
+                            <li class="footer-list-head">Spotify Plans</li>
+                            <li>Premium Individual</li>
+                            <li>Premium Duo</li>
+                            <li>Premium Family</li>
+                            <li>Premium Student</li>
+                            <li>Spotify Free</li>
+                        </ul> 
+                    </div>
+                    <div class="social-media">
+                        <!-- <div class="icon-border"> -->
+                            <i class="fa-brands fa-instagram foot-icon"></i>
+                        <!-- </div> -->
+                        <!-- <div class="icon-border"> -->
+                            <i class="fa-brands fa-facebook foot-icon"></i>
+                        <!-- </div> -->
+                        <!-- <div class="icon-border"> -->
+                            <i class="fa-brands fa-twitter foot-icon"></i>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">music player
+            <div class="song-details">
+                <img src="./assets/card2img.jpeg" class="player-image" alt="">
+                <div class="song-info">
+                    <p class="song-name">Mahiye Jinna Sohna</p>
+                    <p class="artist-name">Darshan Raval</p>
+                </div>
+            </div>
+            <div class="main-controls">
+                <div class="song-controls">
+                    <img src="./assets/player_icon1.png" class="player-controls-icon" alt="">
+                    <img src="./assets/player_icon2.png"  class="player-controls-icon" alt="">
+                    <img src="./assets/player_icon3.png" class="player-controls-icon play" style="height:2rem ;width:2rem ;opacity:1" alt="">
+                    <img src="./assets/player_icon4.png" class="player-controls-icon" alt="">
+                    <img src="./assets/player_icon5.png" class="player-controls-icon" alt="">
+                </div>
+                <div class="progress-bar">
+                    <label>00.00</label>
+                    <input type="range" class="player-range">
+                    <label>3.34</label>
+                </div>  
+            </div>
+            
+            <div class="additional-controls">
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
